@@ -27,6 +27,7 @@
     -->
 
     <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin"/>
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -84,6 +85,7 @@
         Otherwise, you can specify specific domains:
     -->
     <!-- <access origin="http://127.0.0.1*"/> allow local pages -->
+    <allow-navigation href="*" />
     <access origin="*" />
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
