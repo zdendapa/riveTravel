@@ -98,7 +98,6 @@
     <gap:splash gap:platform="android" gap:qualifier="xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
 
 
-
     <!--
         Define access to external domains.
 
